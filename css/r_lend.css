@@ -1,0 +1,12 @@
+table{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+th{
+    padding: 10px 20px;
+}
+td{
+    padding: 10px 20px;
+}

@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 相对.css所在的目录而言：“../”表示上一级目录开始 “./”表示当前同级目录开始 “/”表示根目录开始。 */
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(../img/6.jpg);
+}
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+}
+#text{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.containers{
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.menu{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu img{
+    max-width: 95%;
+    max-height: 95%;
+    cursor: pointer;
+}
+#aside{
+    display: none;
+    position: fixed;
+    top: 50%;
+    z-index: 111111;
+    transform: translateY(-50%);
+    right: 0;
+    width: 200px;
+    height: 95%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(126, 158, 253),-2px -2px 5px rgb(128, 159, 252);
+    white-space: nowrap;
+}
+.asides{
+    animation: aside ease-in-out 1s;
+}
+@keyframes aside {
+    0%{
+        width: 0;
+    }
+}
+#aside .nav ul{
+    width: 80%;
+    height: 400px;
+}
+.close{
+    width: 100%;
+    height: 50px;
+}
+#close_btn{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.user{
+    width: 95%;
+    height: 50px;
+    padding: 10px 0;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.user_photo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tupian{
+    border-radius:50%;
+}
+.user_photo img{
+    max-width: 90%;
+    min-height: 90%;
+
+}
+.user_txt{
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+}
+.user_txt p a{
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.navs{
+    list-style: none;
+}
+.navs li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 0;
+}
+.navs li a{
+    color: black;
+}
+.active{
+    background-color: royalblue;
+}
+.navs .active a{
+    color: white;
+    margin-left: 10px;
+}

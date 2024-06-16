@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    line-height: 50px;
+    color: #323232;
+}
+.input-group{
+    width: 300px;
+}
+.input-group-addon{
+    background-color: white;
+}
+.input-group input{
+    background-color: rgba(230, 230, 230,0.5);
+}
+.btn{
+    padding: 5px 20px;
+    background-color: royalblue;
+    color: white;
+    border: transparent;
+    margin: 0 10px;
+}
+.btn:hover{
+    background-color: rgb(36, 87, 237);
+    color: white;
+}

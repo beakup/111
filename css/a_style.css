@@ -1,0 +1,35 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width: 200px;
+    height: 100%;
+    background-color: white;
+    margin-left: -15px;
+}
+.navbar ul{
+    height: 500px;
+}
+.navbar ul li{
+    width: 100%;
+    text-indent: 2em;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: royalblue;
+    color: white;
+}
+.right_main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

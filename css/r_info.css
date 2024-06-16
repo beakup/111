@@ -1,0 +1,41 @@
+.col-xs-5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+}
+.list-group-item{
+    border: transparent;
+}
+.ka{
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-indent: 1em;
+    line-height: 40px;
+    color: #323232;
+    margin: 10px 0;
+    transition: ease 0.5s;
+}
+.ka:hover{
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+}
+.btns{
+    display: block;
+    width: 80px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+.btns:hover{
+    background-color: rgb(37, 84, 226);
+    color: white;
+    text-decoration: none;
+}
